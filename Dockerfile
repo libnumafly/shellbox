@@ -2,6 +2,6 @@ FROM ubuntu:latest
 MAINTAINER Kensei Sakai
 #
 # setup
-RUN apt -yqq update
-RUN apt -yqq dist-upgrade
-RUN apt -yqq install ubuntu-standard
+RUN apt -y update
+RUN apt -y dist-upgrade
+RUN apt -y install ubuntu-standard
