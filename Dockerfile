@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:latest AS os-base
 MAINTAINER Kensei Sakai
 #
 # setup
